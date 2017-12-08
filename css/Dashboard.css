@@ -4,204 +4,39 @@ html {
     font-family: "Montserrat";
 }
 
-#top, #bottom, #left, #right {
-	background: #047153;
-	position: fixed;
-	z-index: 100;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 10px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top{
-		left: 0; right: 0;
-		height: 0px;
-		}
-		#top { top: 0; }
-
-nav {
-    position: sticky;
-    height: 66px;
-    background-color: white;
-    box-shadow: 0 5px 5px -10px #333;
-    z-index: 5;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #047153;
-    border-right-color: transparent;
-    border-bottom: 0px;
-    top: 0;
-}
-
-#wrapper {
-    width: 150px;
-    display: inline-flex;
-}
-
-#tbox {
-    margin: 0 auto;
-    padding: 4px;
-    background-color: transparent; 
-    width: 180px;
-    height: 56px;
-    position: fixed;
-    box-shadow: 0px 0px;
-}
-
-#title {
-    font-family: "Montserrat";
-    font-size: 13px;
-    text-align: left;
-    line-height: 95%;
-    font-weight: 500;
-    width: 45%;
-    margin-top: 0px;
-    color: #1f1f1f;
-}
-
-#tbox:hover #title {
-    color: #047153;
-    font-weight: 500;
-}
-
-#logoutButton {
-	float: right;
-    background-color: #047153;
-    
-}
-
-
-#searchbar {
-    position: relative;
-    width: 220px;
-    height: 23px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    padding-left: 5px;    
+#logoutButton, #btnAdd, #btnDelete {
+    background-color: #1c1c1c;
+    color: snow;
+    float: right;
+    margin: 10px;
     border-radius: 2px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #005c3d;
-    border-radius: 3px;
+    height: 25px;
+    line-height: 225%;
     font-size: 11px;
-    box-shadow: 0 5px 5px -7px #333;
-    background-color: white;
+    box-shadow: 0 5px 5px -4px #333;
+}
+
+#btnAdd {
+    margin-right: 2px;
     float: left;
-    opacity: 1;
+    background-color: darkgreen;
 }
 
-#searchDiv{
-    position: relative;
-    margin: 0 auto;
-    height: 44px;
-}
-
-#searchResultFeed {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 750px;
-    border: 0px solid none;
-    border-radius: 3px;
-}
-
-/*This changes the text color of the select options.*/
-ul.dropdown-content.select-dropdown li span {
-	font-size: 11px;
-    color: #1f1f1f;
-    font-family: "Montserrat";
-}
-
-/*This changes the FIRST option of the select (its disabled, so it should be gray)*/
-ul.dropdown-content.select-dropdown li.disabled span {
-	font-size: 11px;
-    color: #888888; 
-    font-family: "Montserrat";
- 
-}
-
-/*This is for the select tag size customization.*/
-div.input-field {
-	width: 95%;
-    margin-top: -10px;
-    margin-left: 4px;
-    margin-bottom: -19px;
-    text-overflow: clip;
-}
-
-.select-wrapper input.select-dropdown {
-    height: 20px;
-    width: 200px;
-    font-size: 11px;
-    border-radius: 2px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: transparent;
-    opacity: 0.9;
-    padding-left: 2px;
-    
-}
-
-#dropFilter {
-    margin: auto;
+#btnDelete {
     float: left;
-    width: 60px;
+    background-color: darkred
 }
 
 
-#searcher {
-    padding-top: 50px;
+
+table {
+    position: relative;
+    width: 80%;
     margin: 0 auto;
-    position: relative;
-    width: 600px;
-    height: 100px;
-    border: 1px solid none;
+    top: 50px;
 }
 
-#searchResultInfo {
-    font-size: 15px;
-    position: relative;
-    margin: auto;
-    width: 750px;
-    margin-top: 60px;
-    height: 50px;
-    border: 1px solid transparent;
-}
-
-#searchHeader {
-    background: #047153;
-    color: white;
-}
-
-#tableHeader {
-    background: #047153;
-    height: 50px;
-    margin: auto;
-    padding-top: 2px;
-}
-
-#tableDetails {
-    height: 20px;
-}
-
-.tableCol1 {
-    width: 120px;
-}
-
-.tableCol2 {
-    width: 400px;
-}
-
-#filterContainer {
-    margin: auto;
-    border: 1px solid none;
-    margin-top: 30px;
-    position: relative;
-    width: 550px;
-    float:left;
-    margin-left: 10px;
+th {
+   text-align: center;
+    padding: 5px;
 }
