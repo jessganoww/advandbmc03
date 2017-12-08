@@ -36,7 +36,11 @@ table {
     top: 50px;
 }
 
-th {
-   text-align: center;
-    padding: 5px;
+
+#tableDetails {
+    height: 20px;
+}
+
+.tableData {
+    width: 120px;
 }

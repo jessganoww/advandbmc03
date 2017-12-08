@@ -11,7 +11,8 @@
         <!-- JS -->
         <script type="text/javascript" src="../jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
-        <script type="text/javascript" src="../script/Home.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+        <script type="text/javascript" src="../script/Dashboard.js"></script>
 	</head>
     
 	<body>
@@ -19,20 +20,25 @@
         
     
         
+        <div>
+        	<table>
+	            <thead>
+	                <tr>
+	                    <th id="col1" name="col1">Country Key</th>
+	                    <th id="col2" name="col2">Country Name</th>
+	                    <th id="col3" name="col3">Data</th>
+	                    <th id="col4" name="col4">Region</th>
+	                    <th id="col5" name="col5">Series Name</th>
+	                    <th id="col6" name="col6">Year</th>
+	                </tr>
+	            </thead>
+            </table>
+        </div>
+
         <table id="tableDetails">
-            <thead>
-                <tr>
-                    <th id="col1" name="col1">Col1</th>
-                    <th id="col2" name="col2">Col2</th>
-                    <th id="col3" name="col3">Col3</th>
-                    <th id="col4" name="col4">Col4</th>
-                    <th id="col5" name="col5">Col5</th>
-                    <th id="col6" name="col6">Col6</th>
-                </tr>
-            </thead>
+             
         </table>
-        
-     
+
 	 
 	</body>
 </html>
