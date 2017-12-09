@@ -21,67 +21,77 @@
     	while (searchFeed.firstChild) 
     		searchFeed.removeChild(searchFeed.firstChild);
     	
-    	dbRef.on("child_added", snap => {
+    		dbRef.on("child_added", snap => {
 
-		    var tableRow = document.createElement("tr");
-		    var tableDataCK = document.createElement("td");
-		    var tableDataCN = document.createElement("td");
-		    var tableDataD = document.createElement("td");
-		    var tableDataR = document.createElement("td");
-		    var tableDataSN = document.createElement("td");
-		    var tableDataYC = document.createElement("td");
-		    var tableDataA = document.createElement("td");
-		    var anchorActions = document.createElement("a");
-//		    <a class='navButtons dropdown-button btn' id = 'addButton'></a>    
-		    
-		    $(tableDataCK).addClass("tableData center-align");
-		    $(tableDataCN).addClass("tableData center-align");
-		    $(tableDataD).addClass("tableData center-align");
-		    $(tableDataR).addClass("tableData center-align");
-		    $(tableDataSN).addClass("tableData center-align");
-		    $(tableDataYC).addClass("tableData center-align");
-		    $(tableDataA).addClass("tableData center-align");
-		    $(anchorActions).addClass('modal-trigger');
-		    
+			    var tableRow = document.createElement("tr");
+			    var tableDataCK = document.createElement("td");
+			    var tableDataCN = document.createElement("td");
+			    var tableDataD = document.createElement("td");
+			    var tableDataR = document.createElement("td");
+			    var tableDataSN = document.createElement("td");
+			    var tableDataYC = document.createElement("td");
+			    var tableDataA = document.createElement("td");
+			    var anchorActions = document.createElement("a");  
+			    
+			    $(tableDataCK).addClass("tableData center-align");
+			    $(tableDataCN).addClass("tableData center-align");
+			    $(tableDataD).addClass("tableData center-align");
+			    $(tableDataR).addClass("tableData center-align");
+			    $(tableDataSN).addClass("tableData center-align");
+			    $(tableDataYC).addClass("tableData center-align");
+			    $(tableDataA).addClass("tableData center-align");
+			    $(anchorActions).addClass('modal-trigger');
 
-		    tableDataCK.innerText  = snap.child("CountryKey").val();
-		    tableDataCN.innerText  = snap.child("CountryName").val();
-		    tableDataD.innerText   = snap.child("Data").val();
-		    tableDataR.innerText   = snap.child("Region").val();
-		    tableDataSN.innerText  = snap.child("SeriesName").val();
-		    tableDataYC.innerText  = snap.child("YearC").val();
-		    
-		    anchorActions.innerHTML = "		<a class='modal-trigger' href = '#updateData' onClick = '(function(){"+
-									  /*"				    document.getElementById(\"updateTitle\"" +
-							          ").setAttribute(\"postId\", \"" + p.getPostId() + "\");" +*/ //Get key from snap.child("key") store it here
-									  "   				$(\"#updateCN\").val(\"" + snap.child("CountryName").val() + "\");" +
-									  "   				$(\"#updateD\").val(\"" + snap.child("Data").val() + "\");" +
-									  "   				$(\"#updateSN\").val(\"" + snap.child("SeriesName").val() + "\");" +
-									  "   				$(\"#updateY\").val(\"" + snap.child("YearC").val() + "\");" +
-								  	  "				    return false;" +
-									  "				})();return false;'>" +
-									  "	<i class='material-icons editbtn'>edit</i></a>" /*Add another anchor button (Delete)*/;
-
-		    tableDataA.append(anchorActions);
-		    tableRow.append(tableDataCK);
-			tableRow.append(tableDataCN);
-			tableRow.append(tableDataD);
-			tableRow.append(tableDataR);
-			tableRow.append(tableDataSN);
-			tableRow.append(tableDataYC);
-			tableRow.append(tableDataA);
+			    tableDataCN.id = "tableDataCN" + snap.key;
+    			tableDataD.id  = "tableDataD"   + snap.key;
+    			tableDataSN.id = "tableDataSN" + snap.key;
+    			tableDataYC.id = "tableDataY"  + snap.key;
+	
+			    tableDataCK.innerText  = snap.child("CountryKey").val();
+			    tableDataCN.innerText  = snap.child("CountryName").val();
+			    tableDataD.innerText   = snap.child("Data").val();
+			    tableDataR.innerText   = snap.child("Region").val();
+			    tableDataSN.innerText  = snap.child("SeriesName").val();
+			    tableDataYC.innerText  = snap.child("YearC").val();
+			    
+			    anchorActions.innerHTML = "		<a class='modal-trigger' href = '#updateData' onClick = '(function(){"+
+										  "				    document.getElementById(\"updateData\"" +
+								          ").setAttribute(\"dataId\", \"" + snap.key + "\");" +
+										  "   				$(\"#updateCN\").val(\"" + snap.child("CountryName").val() + "\");" +
+										  "   				$(\"#updateD\").val(\"" + snap.child("Data").val() + "\");" +
+										  "   				$(\"#updateSN\").val(\"" + snap.child("SeriesName").val() + "\");" +
+										  "   				$(\"#updateY\").val(\"" + snap.child("YearC").val() + "\");" +
+									  	  "				    return false;" +
+										  "				})();return false;'>" +
+										  "	<i class='material-icons editbtn'>edit</i></a>" /*Add another anchor button (Delete)*/;
+	
+			    tableDataA.append(anchorActions);
+			    tableRow.append(tableDataCK);
+				tableRow.append(tableDataCN);
+				tableRow.append(tableDataD);
+				tableRow.append(tableDataR);
+				tableRow.append(tableDataSN);
+				tableRow.append(tableDataYC);
+				tableRow.append(tableDataA);
+				
+				searchFeed.append(tableRow);	
+	    	});
 			
-			searchFeed.append(tableRow);	
-    	});
-			
+    	dbRef.on('child_changed', function(data) {
+    		  document.getElementById("tableDataCN"+data.key).innerText = data.child("CountryName").val();
+    		  document.getElementById("tableDataD"+data.key).innerText = data.child("Data").val();
+    		  document.getElementById("tableDataSN"+data.key).innerText = data.child("SeriesName").val();
+    		  document.getElementById("tableDataY"+data.key).innerText = data.child("YearC").val();
+		});
 
   };
   
   
 	$("document").ready(function() {
-	loadData();
+	    $('.modal').modal();
+	    loadData();
 
-	  $("#transactNewDataButton").click(function() {
+	    $("#transactNewDataButton").click(function() {
 				
 		var countryName = document.getElementById('newCN').value;
 		var data = document.getElementById('newD').value;
@@ -106,16 +116,23 @@
 		if(dbRef.update(updates))
 			 console.log("Added a new data!");
 		else console.log("Error: Unable to add a new data!");
+
+    	$('.modal-overlay').trigger('click');
 	  })
 	  
 	  $("#transactUpdateDataButton").click(function() {
-				
+
+	    var dataId   = document.getElementById('updateData').getAttribute("dataId");
 		var countryName = document.getElementById('updateCN').value;
-		var data = document.getElementById('updateD').value;
 		var seriesName = document.getElementById('updateSN').value;
+		var data = document.getElementById('updateD').value;
 		var year = document.getElementById('updateY').value;
-		
-		dbRef.child(0).child("CountryKey").set(1);
-		
+
+		dbRef.child(dataId).child("CountryName").set(countryName);
+		dbRef.child(dataId).child("SeriesName").set(seriesName);
+		dbRef.child(dataId).child("Data").set(data);
+		dbRef.child(dataId).child("YearC").set(year);
+
+    	$('.modal-overlay').trigger('click');
 	  })
   });
