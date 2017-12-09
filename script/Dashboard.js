@@ -25,7 +25,8 @@
 
 		dbRef.on("child_added", snap => {
 
-			if(loggedInUser == "admin" || (loggedInUser== "user1" && 
+			// Filter here
+			if(/*loggedInUser == "admin" */ true || (loggedInUser== "user1" && 
 		       snap.child("Region").val().indexOf("Europe & Central Asia") != -1 )||
 		       (loggedInUser == "user2" && snap.child("Region").val().indexOf("Sub-Saharan Africa") != -1 )){
 					
