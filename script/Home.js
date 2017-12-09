@@ -42,26 +42,24 @@ function accPassMismatch(data) {
 
 //This function handles submitting the form.
 function submitTheForm(username, password) {
-/*	$.ajax({
- 	   context: this,
-        url:'login',
-        data:{'email':username,
-        	  'password': password},
-        type:'POST',
-        cache:false,
-        success: function(data){
-        	//Front-end here.
-        	accPassMismatch(data);
-        },
-        error:function(){
-        	console.log("error searchResult.js");
-        }
-     });*/
+	// Store
+	sessionStorage.setItem("loggedUser", username);
+	
 	document.location.href = 'Dashboard.html';
 }
 
+
 $("document").ready(function() {
 
+//    var d = new Date();
+//    var nDaysExpiry = 21;   // 3 weeks
+//    d.setTime(d.getTime() + (nDaysExpiry*24*60*60*1000));
+//    var expires = "expires="+ d.toUTCString();
+    var loggedInUser   =  sessionStorage.getItem("loggedUser");    
+
+    if(loggedInUser != null){
+    	document.location.href = 'Dashboard.html';
+    }
 	//Submit form!
 	$("#btnlogin").click(function() {
 

@@ -14,16 +14,21 @@
   
 /********************************************/
   
-  
   function loadData(studentName, collegeVal){
 		
 		var searchFeed = document.getElementById("tableDetails");
 
-    	while (searchFeed.firstChild) 
-    		searchFeed.removeChild(searchFeed.firstChild);
+    	while (searchFeed.secondChild) 
+    		searchFeed.removeChild(searchFeed.secondChild);
     	
-    		dbRef.on("child_added", snap => {
+    	var loggedInUser   =  sessionStorage.getItem("loggedUser");    
 
+		dbRef.on("child_added", snap => {
+
+			if(loggedInUser == "admin" || (loggedInUser== "user1" && 
+		       snap.child("Region").val().indexOf("Europe & Central Asia") != -1 )||
+		       (loggedInUser == "user2" && snap.child("Region").val().indexOf("Sub-Saharan Africa") != -1 )){
+					
 			    var tableRow = document.createElement("tr");
 			    var tableDataCK = document.createElement("td");
 			    var tableDataCN = document.createElement("td");
@@ -44,13 +49,13 @@
 			    $(tableDataA).addClass("tableData center-align");
 			    $(anchorEdit).addClass('modal-trigger');
 			    $(anchorRemove).addClass('modal-trigger');
-
-    			tableRow.id    = "tableRow"    + snap.key;
+	
+				tableRow.id    = "tableRow"    + snap.key;
 			    tableDataCN.id = "tableDataCN" + snap.key;
-    			tableDataD.id  = "tableDataD"  + snap.key;
-    			tableDataSN.id = "tableDataSN" + snap.key;
-    			tableDataYC.id = "tableDataY"  + snap.key;
-    			
+				tableDataD.id  = "tableDataD"  + snap.key;
+				tableDataSN.id = "tableDataSN" + snap.key;
+				tableDataYC.id = "tableDataY"  + snap.key;
+				
 			    tableDataCK.innerText  = snap.child("CountryKey").val();
 			    tableDataCN.innerText  = snap.child("CountryName").val();
 			    tableDataD.innerText   = snap.child("Data").val();
@@ -85,23 +90,31 @@
 				anchorRemove.onclick = function(){
 					  dbRef.child(snap.key).remove();
 				}
-	    	});
+			}
+    	});
 			
-    	dbRef.on('child_changed', function(data) {
-    		  document.getElementById("tableDataCN"+data.key).innerText = data.child("CountryName").val();
-    		  document.getElementById("tableDataD"+data.key).innerText = data.child("Data").val();
-    		  document.getElementById("tableDataSN"+data.key).innerText = data.child("SeriesName").val();
-    		  document.getElementById("tableDataY"+data.key).innerText = data.child("YearC").val();
-		});
-
-    	dbRef.on('child_removed', function(data) {
-    		$("#tableRow"+data.key).remove();
-		});
+	    	dbRef.on('child_changed', function(data) {
+	    		  document.getElementById("tableDataCN"+data.key).innerText = data.child("CountryName").val();
+	    		  document.getElementById("tableDataD"+data.key).innerText = data.child("Data").val();
+	    		  document.getElementById("tableDataSN"+data.key).innerText = data.child("SeriesName").val();
+	    		  document.getElementById("tableDataY"+data.key).innerText = data.child("YearC").val();
+			});
+	
+	    	dbRef.on('child_removed', function(data) {
+	    		$("#tableRow"+data.key).remove();
+			});
   };
   
   
 	$("document").ready(function() {
 	    $('.modal').modal();
+	    
+	    var loggedInUser   =  sessionStorage.getItem("loggedUser");    
+
+
+	    if(loggedInUser == null){
+	    	document.location.href = 'Home.html';
+	    }
 	    loadData();
 
 	    $("#transactNewDataButton").click(function() {
@@ -148,4 +161,10 @@
 
     	$('.modal-overlay').trigger('click');
 	  })
+	  
+
+	    $("#logoutButton").click(function(event){
+	    	sessionStorage.removeItem("loggedUser");
+	        window.location.href = "home.html";
+	    });
   });

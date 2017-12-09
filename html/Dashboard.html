@@ -13,6 +13,7 @@
         <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
         <script type="text/javascript" src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
         <script type="text/javascript" src="../script/Dashboard.js"></script>
+        <script type="text/javascript" src="../script/sorttable.js"></script>
 	</head>
     
 	<body>
@@ -21,22 +22,20 @@
     
         
         <div>
-        	<table>
-	            <thead>
-	                <tr>
-	                    <th id="col1" name="col1">Country Key</th>
-	                    <th id="col2" name="col2">Country Name</th>
-	                    <th id="col3" name="col3">Data</th>
-	                    <th id="col4" name="col4">Region</th>
-	                    <th id="col5" name="col5">Series Name</th>
-	                    <th id="col6" name="col6">Year</th>
-	                    <th id="col7" name="col7">Actions</th>
-	                </tr>
-	            </thead>
+        	<table id="tableDetails" class = "sortable">
+                <tr>
+                    <th class = 'tableData center-align'>Country Key</th>
+                    <th class = 'tableData center-align'>Country Name</th>
+                    <th class = 'tableData center-align'>Data</th>
+                    <th class = 'tableData center-align'>Region</th>
+                    <th class = 'tableData center-align'>Series Name</th>
+                    <th class = 'tableData center-align'>Year</th>
+                    <th class = 'tableData center-align'>Actions</th>
+                </tr>
             </table>
         </div>
 
-        <table id="tableDetails"></table>
+        <table ></table>
 
         <div id="newData" class="modal">
             <div class = "transactDataHead">[NEW DATA]</div>
