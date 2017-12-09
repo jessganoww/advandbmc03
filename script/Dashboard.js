@@ -14,6 +14,7 @@
   
 /********************************************/
   
+  
   function loadData(studentName, collegeVal){
 		
 		var searchFeed = document.getElementById("tableDetails");
@@ -31,7 +32,8 @@
 			    var tableDataSN = document.createElement("td");
 			    var tableDataYC = document.createElement("td");
 			    var tableDataA = document.createElement("td");
-			    var anchorActions = document.createElement("a");  
+			    var anchorEdit = document.createElement("a");  
+			    var anchorRemove = document.createElement("a");  
 			    
 			    $(tableDataCK).addClass("tableData center-align");
 			    $(tableDataCN).addClass("tableData center-align");
@@ -40,13 +42,15 @@
 			    $(tableDataSN).addClass("tableData center-align");
 			    $(tableDataYC).addClass("tableData center-align");
 			    $(tableDataA).addClass("tableData center-align");
-			    $(anchorActions).addClass('modal-trigger');
+			    $(anchorEdit).addClass('modal-trigger');
+			    $(anchorRemove).addClass('modal-trigger');
 
+    			tableRow.id    = "tableRow"    + snap.key;
 			    tableDataCN.id = "tableDataCN" + snap.key;
-    			tableDataD.id  = "tableDataD"   + snap.key;
+    			tableDataD.id  = "tableDataD"  + snap.key;
     			tableDataSN.id = "tableDataSN" + snap.key;
     			tableDataYC.id = "tableDataY"  + snap.key;
-	
+    			
 			    tableDataCK.innerText  = snap.child("CountryKey").val();
 			    tableDataCN.innerText  = snap.child("CountryName").val();
 			    tableDataD.innerText   = snap.child("Data").val();
@@ -54,7 +58,7 @@
 			    tableDataSN.innerText  = snap.child("SeriesName").val();
 			    tableDataYC.innerText  = snap.child("YearC").val();
 			    
-			    anchorActions.innerHTML = "		<a class='modal-trigger' href = '#updateData' onClick = '(function(){"+
+			    anchorEdit.innerHTML = "		<a class='modal-trigger' href = '#updateData' onClick = '(function(){"+
 										  "				    document.getElementById(\"updateData\"" +
 								          ").setAttribute(\"dataId\", \"" + snap.key + "\");" +
 										  "   				$(\"#updateCN\").val(\"" + snap.child("CountryName").val() + "\");" +
@@ -63,9 +67,11 @@
 										  "   				$(\"#updateY\").val(\"" + snap.child("YearC").val() + "\");" +
 									  	  "				    return false;" +
 										  "				})();return false;'>" +
-										  "	<i class='material-icons editbtn'>edit</i></a>" /*Add another anchor button (Delete)*/;
-	
-			    tableDataA.append(anchorActions);
+										  "	<i class='material-icons editbtn'>edit</i></a>";
+			    anchorRemove.innerHTML =  "<a class='modal-trigger'><i class='material-icons rmvbtn'>remove</i></a>";
+			    
+			    tableDataA.append(anchorEdit);
+			    tableDataA.append(anchorRemove);
 			    tableRow.append(tableDataCK);
 				tableRow.append(tableDataCN);
 				tableRow.append(tableDataD);
@@ -74,7 +80,11 @@
 				tableRow.append(tableDataYC);
 				tableRow.append(tableDataA);
 				
-				searchFeed.append(tableRow);	
+				searchFeed.prepend(tableRow);
+				
+				anchorRemove.onclick = function(){
+					  dbRef.child(snap.key).remove();
+				}
 	    	});
 			
     	dbRef.on('child_changed', function(data) {
@@ -84,6 +94,9 @@
     		  document.getElementById("tableDataY"+data.key).innerText = data.child("YearC").val();
 		});
 
+    	dbRef.on('child_removed', function(data) {
+    		$("#tableRow"+data.key).remove();
+		});
   };
   
   
