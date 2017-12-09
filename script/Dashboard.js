@@ -86,7 +86,7 @@
 				tableRow.append(tableDataYC);
 				tableRow.append(tableDataA);
 				
-				searchFeed.prepend(tableRow);
+				$(searchFeed).prepend(tableRow);
 				
 				anchorRemove.onclick = function(){
 					  dbRef.child(snap.key).remove();
