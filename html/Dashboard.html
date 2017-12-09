@@ -16,8 +16,8 @@
 	</head>
     
 	<body>
-        <a class='dropdown-button btn' id = 'logoutButton'>Logout</a>
-        
+        <a class='navButtons modal-trigger btn' id = 'logoutButton'>Logout</a>
+        <a class="navButtons modal-trigger btn" href="#newData" id = 'addButton'><i class="material-icons">add</i></a>    
     
         
         <div>
@@ -30,15 +30,52 @@
 	                    <th id="col4" name="col4">Region</th>
 	                    <th id="col5" name="col5">Series Name</th>
 	                    <th id="col6" name="col6">Year</th>
+	                    <th id="col7" name="col7">Actions</th>
 	                </tr>
 	            </thead>
             </table>
         </div>
 
-        <table id="tableDetails">
-             
-        </table>
+        <table id="tableDetails"></table>
 
+        <div id="newData" class="modal">
+            <div class = "transactDataHead">[NEW DATA]</div>
+            <div class = "transactDataWrap">
+                <form action="createPost" method="POST" class="createPostForm">
+					<p class="ltags">Country Name</p>
+					<input type="text" id="newCN" name = "newCN" class = "inputTransactData">
+					<p class="ltags">Data</p>
+					<input type="text" id="newD" name  = "newD" class = "inputTransactData">
+					<p class="ltags">Series Name</p>
+					<input type="text" id="newSN" name = "newSN" class = "inputTransactData">
+					<p class="ltags">Year</p>
+					<input type="text" id="newY" name  = "newY" class = "inputTransactData">
+           		</form>
+					<br>	
+					<button class="transactButtonSubmit waves-effect waves-light btn"
+							id="transactNewDataButton">POST</button>
+					<br>
+            </div>
+        </div>
 	 
+	 	<div id="updateData" class="modal">
+            <div class = "transactDataHead">[UPDATE DATA]</div>
+            <div class = "transactDataWrap">
+                <form action="createPost" method="POST" class="createPostForm">
+					<p class="ltags">Country Name</p>
+					<input type="text" id="updateCN" name = "updateCN" class = "inputTransactData">
+					<p class="ltags">Data</p>
+					<input type="text" id="updateD" name = "updateD" class = "inputTransactData">
+					<p class="ltags">Series Name</p>
+					<input type="text" id="updateSN" name = "updateSN" class = "inputTransactData">
+					<p class="ltags">Year</p>
+					<input type="text" id="updateY" name = "updateY" class = "inputTransactData">
+           		</form>
+					<br>	
+					<button class="transactButtonSubmit waves-effect waves-light btn" 
+							id="transactUpdateDataButton">UPDATE</button>
+					<br>
+            </div>
+        </div>
 	</body>
 </html>
