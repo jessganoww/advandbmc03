@@ -31,7 +31,6 @@
 		       (loggedInUser == "user2" && snap.child("Region").val().indexOf("Sub-Saharan Africa") != -1 )){
 					
 			    var tableRow = document.createElement("tr");
-			    var tableDataCK = document.createElement("td");
 			    var tableDataCN = document.createElement("td");
 			    var tableDataD = document.createElement("td");
 			    var tableDataR = document.createElement("td");
@@ -41,7 +40,6 @@
 			    var anchorEdit = document.createElement("a");  
 			    var anchorRemove = document.createElement("a");  
 			    
-			    $(tableDataCK).addClass("tableData center-align");
 			    $(tableDataCN).addClass("tableData center-align");
 			    $(tableDataD).addClass("tableData center-align");
 			    $(tableDataR).addClass("tableData center-align");
@@ -57,7 +55,6 @@
 				tableDataSN.id = "tableDataSN" + snap.key;
 				tableDataYC.id = "tableDataY"  + snap.key;
 				
-			    tableDataCK.innerText  = snap.child("CountryKey").val();
 			    tableDataCN.innerText  = snap.child("CountryName").val();
 			    tableDataD.innerText   = snap.child("Data").val();
 			    tableDataR.innerText   = snap.child("Region").val();
@@ -78,7 +75,6 @@
 			    
 			    tableDataA.append(anchorEdit);
 			    tableDataA.append(anchorRemove);
-			    tableRow.append(tableDataCK);
 				tableRow.append(tableDataCN);
 				tableRow.append(tableDataD);
 				tableRow.append(tableDataR);
