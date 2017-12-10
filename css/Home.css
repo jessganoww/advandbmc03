@@ -22,6 +22,7 @@ body {
 
 #username, #password {
     width: 90%;
+    font-size: 11px;
     border-style: solid;
     border-width: 0.6px;
     border-color: dimgray;

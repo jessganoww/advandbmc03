@@ -15,6 +15,10 @@
 /********************************************/
   
   function loadData(studentName, collegeVal){
+      
+      if (!(navigator.onLine)) {
+          $("#offlinemode").show();
+      }
 		
 		var searchFeed = document.getElementById("tableDetails");
 
