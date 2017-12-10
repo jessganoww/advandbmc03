@@ -16,26 +16,30 @@ html {
     box-shadow: 0 5px 5px -4px #333;
 }
 
-#btnAdd {
-    margin-right: 2px;
-    float: left;
-    background-color: darkgreen;
+.navButtons:hover {
+    background-color: black;
 }
-
-#btnDelete {
-    float: left;
-    background-color: darkred
-}
-
-
 
 table {
+    display: relative;
     position: relative;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    top: 50px;
+    top: 30px;
 }
 
+th {
+    font-size: 11px;
+}
+
+th:hover {
+    color: darkslategray;
+    cursor: pointer;
+}
+
+th:active {
+    color: cadetblue;
+}
 
 #tableDetails {
     height: 20px;
@@ -43,70 +47,60 @@ table {
 
 .tableData {
     width: 120px;
+    font-size: 11px;
 }
-
-
 
 /* others below */
 
 #newData, #updateData{
-    width: 600px;
-    height: 80%;
+    width: 500px;
 }
 
 .transactDataHead {
-    background-color: #006f4a;
+    background-color: #1c1c1c;
+    font-size: 11px;
     color: snow;
     height: 30px;
     text-align: center;
-    line-height: 200%;
+    line-height: 270%;
 }
 
 .transactDataWrap {
     margin: 0 auto;
-    width: 550px;
+    width: 450px;
     padding: 10px;
     height: 90%;
 }
 
-.createPostForm{
-	height: 90%;
-}
-
 .ltags {
-    font-size: 13px;
-    color: #006f4a;
+    width: 95%;
+    font-size: 12px;
+    color: #1c1c1c;
     font-weight: 500;
+    margin-bottom: 0px;
 }
 
-.inputTransactData{
-    width: 97.5%;
+#newData .inputTransactData, #updateData .inputTransactData{
+    width: 95%;
+    height: 40%;
     color: black;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    border-radius: 2px;
+    height: 20px;
     border-style: solid;
-    border-width: 0.5px;
-    border-color: rgba(0, 0, 0, 0.3);
-    padding-left: 3px;
-    font-size: 12px;
-	height: 10%;
+    border-width: 0.6px;
+    border-color: lightgray;
+    margin-bottom: 0px;
+    font-size: 11.5px;
 }
 
 .transactButtonSubmit{
-    margin-top: -15px;
-    background-color: #006f4a;
+    background-color: #1c1c1c;
     color: snow;
-    line-height: 250%;
-    height: 30px;
     float: right;
-    font-size: 11px;
-    font-weight: 500;
-    box-shadow: 0 5px 5px -6px #333;
-    border-style: solid;
-    border-width: 0.6px;
+    margin: 10px;
     border-radius: 2px;
-    border-color: dimgrey;
-    
+    height: 25px;
+    line-height: 225%;
+    font-size: 11px;
+    box-shadow: 0 5px 5px -4px #333;
+  
 }
