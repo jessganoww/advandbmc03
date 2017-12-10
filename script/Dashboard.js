@@ -1,17 +1,19 @@
   // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAbtwYMPjgQFHknOnMszcekupyisYX1JmA",
-    authDomain: "advandb-5532d.firebaseapp.com",
-    databaseURL: "https://advandb-5532d.firebaseio.com",
-    projectId: "advandb-5532d",
-    storageBucket: "advandb-5532d.appspot.com",
-    messagingSenderId: "274266367112"
-  };
-  firebase.initializeApp(config);
+	var config = {
+		apiKey: "AIzaSyAbtwYMPjgQFHknOnMszcekupyisYX1JmA",
+		authDomain: "advandb-5532d.firebaseapp.com",
+		databaseURL: "https://advandb-5532d.firebaseio.com",
+		projectId: "advandb-5532d",
+		storageBucket: "advandb-5532d.appspot.com",
+		messagingSenderId: "274266367112"
+	};
   
-  // Get a reference to the database service
-  var dbRef = firebase.database().ref();
+	firebase.initializeApp(config);
   
+	// Get a reference to the database service
+	var dbRef = firebase.database().ref();
+  
+
 /********************************************/
   
   function loadData(studentName, collegeVal){
@@ -120,7 +122,6 @@
 
 
 	    $("#addButton").click(function() {
-			
 		    if(loggedInUser == "user1" || loggedInUser == "user2"){ 
 		    	document.getElementById("newR").disabled = true;
 				$("#newR").val(loggedInUser == "user1" ? 
@@ -134,7 +135,7 @@
 		    $("#newCN").val("");
 		    $("#newD").val("");
 		    $("#newSN").val("");
-		    $('#newData').trigger('click');
+		    $('#newData').modal('open');
 	    })
   
 					  
