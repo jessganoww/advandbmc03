@@ -1,0 +1,2426 @@
+[
+ {
+   "CountryName": "Afghanistan",
+   "Data": 8249.379883,
+   "Region": "South Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Afghanistan",
+   "Data": 8334374,
+   "Region": "South Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Angola",
+   "Data": 21357.98047,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Angola",
+   "Data": 8844204,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Albania",
+   "Data": 25433.65039,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Albania",
+   "Data": 1292576,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "United Arab Emirates",
+   "Data": 93187.28125,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "United Arab Emirates",
+   "Data": 6302492,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Argentina",
+   "Data": 31734.80078,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Argentina",
+   "Data": 19540451,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Armenia",
+   "Data": 18376.18945,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Armenia",
+   "Data": 1559971,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Australia",
+   "Data": 86972.46875,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Australia",
+   "Data": 12416897,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Austria",
+   "Data": 87198.47656,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Austria",
+   "Data": 4466361,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Azerbaijan",
+   "Data": 34885.98828,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Azerbaijan",
+   "Data": 4950969,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Burundi",
+   "Data": 1778.550049,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Burundi",
+   "Data": 4952060,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Belgium",
+   "Data": 98644.17188,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Belgium",
+   "Data": 4975258,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Benin",
+   "Data": 4288.290039,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Benin",
+   "Data": 4444955,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Burkina Faso",
+   "Data": 3711.040039,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Burkina Faso",
+   "Data": 7942183,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Bangladesh",
+   "Data": 5433.240234,
+   "Region": "South Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Bangladesh",
+   "Data": 78976778,
+   "Region": "South Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Bulgaria",
+   "Data": 40287.21875,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Bulgaria",
+   "Data": 3318342,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Bahrain",
+   "Data": 82563.72656,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Bahrain",
+   "Data": 750065,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Bahamas, The",
+   "Data": 45522.67969,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Bahamas, The",
+   "Data": 223955,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Bosnia and Herzegovina",
+   "Data": 33497.35938,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Bosnia and Herzegovina",
+   "Data": 1496651,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Belarus",
+   "Data": 39153.67188,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Belarus",
+   "Data": 4489036,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Belize",
+   "Data": 20961.08008,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Belize",
+   "Data": 154602,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Bolivia",
+   "Data": 13276.20996,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Bolivia",
+   "Data": 5145858,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Brazil",
+   "Data": 29169.82031,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Brazil",
+   "Data": 109842906,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Barbados",
+   "Data": 29424.56055,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Barbados",
+   "Data": 162318,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Brunei Darussalam",
+   "Data": 156737.5938,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Brunei Darussalam",
+   "Data": 203304,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Bhutan",
+   "Data": 15188.09961,
+   "Region": "South Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Bhutan",
+   "Data": 404127,
+   "Region": "South Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Botswana",
+   "Data": 37480.80078,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Botswana",
+   "Data": 1155963,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Central African Republic",
+   "Data": 1311.969971,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Central African Republic",
+   "Data": 2291727,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Canada",
+   "Data": 82523.84375,
+   "Region": "North America",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Canada",
+   "Data": 19726591,
+   "Region": "North America",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Switzerland",
+   "Data": 93490.63281,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Switzerland",
+   "Data": 4753196,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Channel Islands",
+   "Data": 81607,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Chile",
+   "Data": 47811.23828,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Chile",
+   "Data": 8745002,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "China",
+   "Data": 21630.08008,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "China",
+   "Data": 806498521,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Cote d'Ivoire",
+   "Data": 8124.089844,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Cote d'Ivoire",
+   "Data": 8540700,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Cameroon",
+   "Data": 6973.870117,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Cameroon",
+   "Data": 9176788,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Congo, Rep.",
+   "Data": 15452.33008,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Congo, Rep.",
+   "Data": 1827861,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Colombia",
+   "Data": 28119.34961,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Colombia",
+   "Data": 12.52242,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Colombia",
+   "Data": 15.25631,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Colombia",
+   "Data": 14.34622,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Colombia",
+   "Data": 18.46561,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Colombia",
+   "Data": 32.0232,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Colombia",
+   "Data": 29.18947,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Colombia",
+   "Data": 24290685,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Comoros",
+   "Data": 4883.850098,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Comoros",
+   "Data": 263991,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Cabo Verde",
+   "Data": 14157.51953,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Cabo Verde",
+   "Data": 244001,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Costa Rica",
+   "Data": 30870.91992,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Costa Rica",
+   "Data": 2316957,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Cuba",
+   "Data": 43992.32031,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Cuba",
+   "Data": 5383687,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Cyprus",
+   "Data": 45834.82031,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Cyprus",
+   "Data": 613733,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Czech Republic",
+   "Data": 55939.75,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Czech Republic",
+   "Data": 5341662,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Germany",
+   "Data": 84050.24219,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Germany",
+   "Data": 42213451,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Djibouti",
+   "Data": 307005,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Denmark",
+   "Data": 87166.90625,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Denmark",
+   "Data": 2920484,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Dominican Republic",
+   "Data": 30508.93945,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Dominican Republic",
+   "Data": 4710194,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Algeria",
+   "Data": 45664.35938,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Algeria",
+   "Data": 12355028,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Ecuador",
+   "Data": 22493.33008,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Ecuador",
+   "Data": 7720071,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Egypt, Arab Rep.",
+   "Data": 36556.53906,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Egypt, Arab Rep.",
+   "Data": 29596846,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Eritrea",
+   "Data": 2553.879883,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Spain",
+   "Data": 82548.11719,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Spain",
+   "Data": 23345028,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Estonia",
+   "Data": 53117.64844,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Estonia",
+   "Data": 687168,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Ethiopia",
+   "Data": 3007.959961,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Ethiopia",
+   "Data": 47012009,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Finland",
+   "Data": 82024.63281,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Finland",
+   "Data": 2714587,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Fiji",
+   "Data": 22002.00977,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Fiji",
+   "Data": 347161,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "France",
+   "Data": 89700.70313,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "France",
+   "Data": 30183767,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Gabon",
+   "Data": 63381.53125,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Gabon",
+   "Data": 645573,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "United Kingdom",
+   "Data": 76160.71875,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "United Kingdom",
+   "Data": 33021739,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Georgia",
+   "Data": 16292.07031,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Georgia",
+   "Data": 2017915,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Ghana",
+   "Data": 9398.830078,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Ghana",
+   "Data": 11372106,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Guinea",
+   "Data": 2961.350098,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Guinea",
+   "Data": 5060746,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Gambia, The",
+   "Data": 4299.740234,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Gambia, The",
+   "Data": 801157,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Guinea-Bissau",
+   "Data": 3001.290039,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Guinea-Bissau",
+   "Data": 780016,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Equatorial Guinea",
+   "Data": 63220.80078,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Equatorial Guinea",
+   "Data": 431124,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Greece",
+   "Data": 72823.75781,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Greece",
+   "Data": 4937216,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Guatemala",
+   "Data": 18030.15039,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Guatemala",
+   "Data": 26.94339,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Guatemala",
+   "Data": 32.84649,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Guatemala",
+   "Data": 31.0951,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Guatemala",
+   "Data": 31.77454,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Guatemala",
+   "Data": 41.30458,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Guatemala",
+   "Data": 38.76818,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Guatemala",
+   "Data": 6827724,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Guam",
+   "Data": 77646,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Guyana",
+   "Data": 18515.08984,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Guyana",
+   "Data": 328686,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Hong Kong SAR, China",
+   "Data": 104616.2969,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Hong Kong SAR, China",
+   "Data": 3745415,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Honduras",
+   "Data": 11394.07031,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Honduras",
+   "Data": 15.76629,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Honduras",
+   "Data": 13.60987,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Honduras",
+   "Data": 14.29735,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Honduras",
+   "Data": 37.08308,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Honduras",
+   "Data": 32.27877,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Honduras",
+   "Data": 33.24963,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Honduras",
+   "Data": 3373490,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Croatia",
+   "Data": 53601.73828,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Croatia",
+   "Data": 1845114,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Haiti",
+   "Data": 4192.220215,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Haiti",
+   "Data": 4594342,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Hungary",
+   "Data": 56301.35938,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Hungary",
+   "Data": 4384465,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Indonesia",
+   "Data": 21182.61914,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Indonesia",
+   "Data": 124061112,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "India",
+   "Data": 14681.12988,
+   "Region": "South Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "India",
+   "Data": 496960163,
+   "Region": "South Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Ireland",
+   "Data": 103879.8984,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Ireland",
+   "Data": 2185058,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Iran, Islamic Rep.",
+   "Data": 50217.37109,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Iran, Islamic Rep.",
+   "Data": 27133460,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Iraq",
+   "Data": 64320.73047,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Iraq",
+   "Data": 8801559,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Iceland",
+   "Data": 70670.90625,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Iceland",
+   "Data": 192535,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Israel",
+   "Data": 76833.85938,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Israel",
+   "Data": 3738337,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Italy",
+   "Data": 87013.04688,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Italy",
+   "Data": 25785202,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Jamaica",
+   "Data": 20895.94922,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Jamaica",
+   "Data": 1306181,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Jordan",
+   "Data": 41084.62109,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Jordan",
+   "Data": 1988636,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Japan",
+   "Data": 72523.17969,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Japan",
+   "Data": 65302348,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Kazakhstan",
+   "Data": 46768.82031,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Kazakhstan",
+   "Data": 9284810,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Kenya",
+   "Data": 6335.97998,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Kenya",
+   "Data": 17500228,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Kyrgyz Republic",
+   "Data": 7610.430176,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Kyrgyz Republic",
+   "Data": 2727997,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Cambodia",
+   "Data": 5475.600098,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Cambodia",
+   "Data": 8623857,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Korea, Rep.",
+   "Data": 68415.75781,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Korea, Rep.",
+   "Data": 26356229,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Kuwait",
+   "Data": 158302.2969,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Kuwait",
+   "Data": 1992954,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Lao PDR",
+   "Data": 9803.849609,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Lao PDR",
+   "Data": 3377525,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Lebanon",
+   "Data": 42497.58984,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Lebanon",
+   "Data": 2037245,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Liberia",
+   "Data": 2500.100098,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Liberia",
+   "Data": 1554233,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Libya",
+   "Data": 54821.28906,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Libya",
+   "Data": 2324217,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "St. Lucia",
+   "Data": 97306,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Sri Lanka",
+   "Data": 24560.93945,
+   "Region": "South Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Sri Lanka",
+   "Data": 8576325,
+   "Region": "South Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Lesotho",
+   "Data": 8256.549805,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Lesotho",
+   "Data": 889178,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Lithuania",
+   "Data": 54296.03125,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Lithuania",
+   "Data": 1537729,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Luxembourg",
+   "Data": 201747.7969,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Luxembourg",
+   "Data": 266117,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Latvia",
+   "Data": 48646.76953,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Latvia",
+   "Data": 1036589,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Macao SAR, China",
+   "Data": 231316.9063,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Macao SAR, China",
+   "Data": 360841,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Morocco",
+   "Data": 22027.83008,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Morocco",
+   "Data": 12498273,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Moldova",
+   "Data": 14229.59961,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Moldova",
+   "Data": 1236917,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Madagascar",
+   "Data": 2739.189941,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Madagascar",
+   "Data": 12077140,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Maldives",
+   "Data": 27294.49023,
+   "Region": "South Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Maldives",
+   "Data": 195149,
+   "Region": "South Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Mexico",
+   "Data": 39052.75,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Mexico",
+   "Data": 55561477,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Macedonia, FYR",
+   "Data": 37181.58984,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Macedonia, FYR",
+   "Data": 952721,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Mali",
+   "Data": 5117.27002,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Mali",
+   "Data": 5924862,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Malta",
+   "Data": 70785.65625,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Malta",
+   "Data": 189081,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Myanmar",
+   "Data": 3089.26001,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Myanmar",
+   "Data": 30217049,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Montenegro",
+   "Data": 44144.98047,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Montenegro",
+   "Data": 251741,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Mongolia",
+   "Data": 22450.34961,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Mongolia",
+   "Data": 1328054,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Mozambique",
+   "Data": 3002.679932,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Mozambique",
+   "Data": 12471084,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Mauritania",
+   "Data": 10503.78027,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Mauritania",
+   "Data": 1280621,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Mauritius",
+   "Data": 40924.25,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Mauritius",
+   "Data": 592300,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Malawi",
+   "Data": 1837.030029,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Malawi",
+   "Data": 5.236679,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, study and work, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Malawi",
+   "Data": 5.872073,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, study and work, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Malawi",
+   "Data": 5.571661,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, study and work, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Malawi",
+   "Data": 9.07021,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, working only, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Malawi",
+   "Data": 12.71756,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, working only, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Malawi",
+   "Data": 11.31903,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, working only, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Malawi",
+   "Data": 7571373,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Malaysia",
+   "Data": 54169.48047,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Malaysia",
+   "Data": 13300027,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Namibia",
+   "Data": 30733.53906,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Namibia",
+   "Data": 901859,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "New Caledonia",
+   "Data": 117852,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Niger",
+   "Data": 2948.600098,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Niger",
+   "Data": 6132741,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Nigeria",
+   "Data": 19511.46094,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Nigeria",
+   "Data": 55784248,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Nicaragua",
+   "Data": 11122.49023,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Nicaragua",
+   "Data": 2657353,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Netherlands",
+   "Data": 85121.46094,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Netherlands",
+   "Data": 9019299,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Norway",
+   "Data": 124554.5,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Norway",
+   "Data": 2727176,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Nepal",
+   "Data": 4228.709961,
+   "Region": "South Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Nepal",
+   "Data": 15584793,
+   "Region": "South Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "New Zealand",
+   "Data": 65439.96094,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "New Zealand",
+   "Data": 2433510,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Oman",
+   "Data": 85342.61719,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Oman",
+   "Data": 2215647,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Pakistan",
+   "Data": 13512.55957,
+   "Region": "South Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Pakistan",
+   "Data": 65361409,
+   "Region": "South Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Panama",
+   "Data": 43690.14063,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Panama",
+   "Data": 8.449981,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Panama",
+   "Data": 8.986771,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Panama",
+   "Data": 8.786139,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Panama",
+   "Data": 16.94303,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Panama",
+   "Data": 22.68266,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Panama",
+   "Data": 21.2865,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Panama",
+   "Data": 1837203,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Peru",
+   "Data": 22259.07031,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Peru",
+   "Data": 16973529,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Philippines",
+   "Data": 16456.2793,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Philippines",
+   "Data": 43807158,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Papua New Guinea",
+   "Data": 5795.259766,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Papua New Guinea",
+   "Data": 3365826,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Poland",
+   "Data": 53736.69141,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Poland",
+   "Data": 18280161,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Puerto Rico",
+   "Data": 113956.2031,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Puerto Rico",
+   "Data": 1225637,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Korea, Dem. People’s Rep.",
+   "Data": 4067.449951,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Korea, Dem. People’s Rep.",
+   "Data": 15335855,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Portugal",
+   "Data": 56078.07813,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Portugal",
+   "Data": 5379280,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Paraguay",
+   "Data": 17443.85938,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Paraguay",
+   "Data": 29.24757,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Paraguay",
+   "Data": 29.35977,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Paraguay",
+   "Data": 29.33432,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, study and work, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Paraguay",
+   "Data": 23.87527,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Paraguay",
+   "Data": 47.247,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Paraguay",
+   "Data": 43.94261,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Average working hours of children, working only, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Paraguay",
+   "Data": 3202754,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "French Polynesia",
+   "Data": 121038,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Qatar",
+   "Data": 173966.7969,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Qatar",
+   "Data": 1593886,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Romania",
+   "Data": 37818.41016,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Romania",
+   "Data": 9529932,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Russian Federation",
+   "Data": 46902.87109,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Russian Federation",
+   "Data": 76754167,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Rwanda",
+   "Data": 2937.669922,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Rwanda",
+   "Data": 5694092,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Saudi Arabia",
+   "Data": 143967.5,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Saudi Arabia",
+   "Data": 12134929,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Sudan",
+   "Data": 12190.04004,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Sudan",
+   "Data": 12474754,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Senegal",
+   "Data": 5715.450195,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Senegal",
+   "Data": 6316988,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Singapore",
+   "Data": 138814.7969,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Singapore",
+   "Data": 3110343,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Solomon Islands",
+   "Data": 5135.430176,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Solomon Islands",
+   "Data": 227975,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Sierra Leone",
+   "Data": 5162.740234,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Sierra Leone",
+   "Data": 2440884,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "El Salvador",
+   "Data": 18404.50977,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "El Salvador",
+   "Data": 2749893,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Somalia",
+   "Data": 2617.25,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Somalia",
+   "Data": 3132863,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Serbia",
+   "Data": 26573.75977,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Serbia",
+   "Data": 3.675061,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Average working hours of children, study and work, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Serbia",
+   "Data": 4.283582,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Average working hours of children, study and work, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Serbia",
+   "Data": 4.050813,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Average working hours of children, study and work, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Serbia",
+   "Data": 3132558,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Sao Tome and Principe",
+   "Data": 65384,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Suriname",
+   "Data": 42671.25,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Suriname",
+   "Data": 213762,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Slovak Republic",
+   "Data": 59745.76172,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Slovak Republic",
+   "Data": 2738420,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Slovenia",
+   "Data": 61022.01953,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Slovenia",
+   "Data": 1012624,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Sweden",
+   "Data": 87961.29688,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Sweden",
+   "Data": 5146596,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Swaziland",
+   "Data": 23255.34961,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Swaziland",
+   "Data": 457000,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Syrian Arab Republic",
+   "Data": 192559.0938,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Syrian Arab Republic",
+   "Data": 5171715,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Chad",
+   "Data": 6206.459961,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Chad",
+   "Data": 5060290,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Togo",
+   "Data": 3153.280029,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Togo",
+   "Data": 3318091,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Thailand",
+   "Data": 23853.18945,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Thailand",
+   "Data": 40055849,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Tajikistan",
+   "Data": 6465.819824,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Tajikistan",
+   "Data": 3676342,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Turkmenistan",
+   "Data": 37228.42969,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Turkmenistan",
+   "Data": 2348403,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Timor-Leste",
+   "Data": 12005.12988,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Timor-Leste",
+   "Data": 264426,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Tonga",
+   "Data": 42390,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Trinidad and Tobago",
+   "Data": 61845.41016,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Trinidad and Tobago",
+   "Data": 686710,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Tunisia",
+   "Data": 34055.85938,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Tunisia",
+   "Data": 4023313,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Turkey",
+   "Data": 56665.62109,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Turkey",
+   "Data": 28360682,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Tanzania",
+   "Data": 3639.76001,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Tanzania",
+   "Data": 13.72715,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, study and work, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Tanzania",
+   "Data": 14.59925,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, study and work, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Tanzania",
+   "Data": 14.17376,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, study and work, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Tanzania",
+   "Data": 30.16287,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, working only, female, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Tanzania",
+   "Data": 32.86476,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, working only, male, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Tanzania",
+   "Data": 31.64403,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Average working hours of children, working only, ages 7-14 (hours per week)"
+ },
+ {
+   "CountryName": "Tanzania",
+   "Data": 25284702,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Uganda",
+   "Data": 3623.469971,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Uganda",
+   "Data": 15111603,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Ukraine",
+   "Data": 17156.7207,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Ukraine",
+   "Data": 23089480,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Uruguay",
+   "Data": 40528.98047,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Uruguay",
+   "Data": 1763727,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "United States",
+   "Data": 109314.1016,
+   "Region": "North America",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "United States",
+   "Data": 161074378,
+   "Region": "North America",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Uzbekistan",
+   "Data": 13913.58984,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Uzbekistan",
+   "Data": 13606265,
+   "Region": "Europe & Central Asia",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "St. Vincent and the Grenadines",
+   "Data": 54985,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Venezuela, RB",
+   "Data": 39440.33984,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Venezuela, RB",
+   "Data": 14304546,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Virgin Islands (U.S.)",
+   "Data": 51495,
+   "Region": "Latin America & Caribbean",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Vietnam",
+   "Data": 8914.320313,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Vietnam",
+   "Data": 54206654,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Vanuatu",
+   "Data": 115716,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "West Bank and Gaza",
+   "Data": 23558.59961,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "West Bank and Gaza",
+   "Data": 1056569,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Samoa",
+   "Data": 49879,
+   "Region": "East Asia & Pacific",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Yemen, Rep.",
+   "Data": 15608.42969,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Yemen, Rep.",
+   "Data": 7628379,
+   "Region": "Middle East & North Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "South Africa",
+   "Data": 44046.67969,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "South Africa",
+   "Data": 20001038,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Congo, Dem. Rep.",
+   "Data": 2090.23999,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Congo, Dem. Rep.",
+   "Data": 29023417,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Zambia",
+   "Data": 8622.610352,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Zambia",
+   "Data": 6720673,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ },
+ {
+   "CountryName": "Zimbabwe",
+   "Data": 3289.47998,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "GDP per person employed (constant 2011 PPP $)"
+ },
+ {
+   "CountryName": "Zimbabwe",
+   "Data": 7721545,
+   "Region": "Sub-Saharan Africa",
+   "SeriesName": "Labor force, total"
+ }
+]
