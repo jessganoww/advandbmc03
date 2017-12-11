@@ -2540,6 +2540,8 @@
 					
 					anchorRemove.onclick = function(){
 						  dbRef.child(snap.key).remove();
+						  user1Ref.child(snap.key).remove();
+						  user2Ref.child(snap.key).remove();
 					}
 				
 			}
@@ -2574,16 +2576,20 @@
 		};
 		
 		// Get a key for a new Post.
-		var newPostKey = dbRef.push().key;
+		var newPostKey = i;
 		
 		// Write the new post's data simultaneously in the posts list and the user's post list.
 		var updates = {};
 		updates[newPostKey] = newData;
 		
-		if(user1Ref.update(updates)){
+//		console.log(newPostKey + " || " + region.toString() + " " + region.toString().localeCompare("Europe & Central Asia"));
+		if(dbRef.update(updates)){
+			if(region.toString().localeCompare("Europe & Central Asia") == 0)
+				user1Ref.update(updates);
+			else if (region.toString().localeCompare("Sub-Saharan Africa") == 0)
+				user2Ref.update(updates);
 			 console.log("Added a new data!");
-			 dbRef.update(updates);
-			 user2Ref.update(updates);
+			
 		}
 		else console.log("Error: Unable to add a new data!");
 		
