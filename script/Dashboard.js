@@ -143,7 +143,7 @@
 				
 			var countryName = document.getElementById('newCN').value;
 			var data = document.getElementById('newD').value;
-			var region = document.getElementById('updateR').value;
+			var region = document.getElementById('newR').value;
 			var seriesName = document.getElementById('newSN').value;
 			
 			// A post entry.
