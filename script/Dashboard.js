@@ -149,7 +149,7 @@
 			// A post entry.
 			var newData = {
 				CountryName: countryName,
-				Data: data,
+				Data: math.eval(data),
 				Region: region, 
 				SeriesName: seriesName
 			};
@@ -178,7 +178,7 @@
 
 		dbRef.child(dataId).child("CountryName").set(countryName);
 		dbRef.child(dataId).child("SeriesName").set(seriesName);
-		dbRef.child(dataId).child("Data").set(data);
+		dbRef.child(dataId).child("Data").set(math.eval(data));
 		dbRef.child(dataId).child("Region").set(region);
 
     	$('.modal-overlay').trigger('click');
